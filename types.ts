@@ -27,6 +27,7 @@ export interface Product {
   description: string;
   imageUrl: string;
   priceHint?: string;
+  detailDescription?: string; // For long description modal
 }
 
 export interface GenerationOptions {
